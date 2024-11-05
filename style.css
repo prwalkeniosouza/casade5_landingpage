@@ -239,9 +239,14 @@ h2 {
   background-color: rgb(247, 246, 245);
   padding: 10px;
   border-radius: 5px;
-  width: 40%;
+  width: 90%;
   text-align: center;
-  margin: inherit;
+  justify-content: center;
+}
+
+.ofertas img {
+  height: 25%;
+  width: 150px;
 }
 
 /*ESCREVA-NOS*/
@@ -321,6 +326,7 @@ button:hover {
   justify-content: center;
   align-items: center;
   width: 50%;
+  gap: 20px;
 }
 
 .contatozap > img {
@@ -340,14 +346,14 @@ button:hover {
   max-width: 1100px;
   background-color: rgba(140, 133, 133, 0.399);
   border-radius: 8px;
-  box-shadow: 0 2px rgba(0, 0, 0, 0.1);
-  padding: 50px;
+  padding: 30px;
+  margin-top: 10px;
 }
 
 /*FOOTER*/
 
 footer {
-  height: 45vh;
+  height: 30vh;
   background-color: #000000ad;
   color: #fff;
 }
