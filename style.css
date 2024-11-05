@@ -1,0 +1,401 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  background-color: rgb(255, 228, 208);
+  height: 100vh;
+  background-image: url(img/img_casa5.jpeg);
+}
+
+header {
+  background-image: url("img/familia1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  height: 650px;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+.topo {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(44, 42, 41, 0.995),
+    transparent
+  );
+  height: 220px;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3%;
+}
+
+ul {
+  width: 90%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  width: 10%;
+  display: inline;
+  font-size: 20px;
+  font-weight: 650;
+  margin-right: 2%;
+}
+
+li > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li:hover {
+  font-size: 22px;
+  box-shadow: 0 4px 0 rgb(255, 228, 208);
+  color: antiquewhite;
+  text-shadow: 1px 1px 2px rgb(247, 246, 245);
+}
+
+.menu {
+  padding-bottom: 10%;
+}
+
+.logo > img {
+  width: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.intro {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.padrao {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.padrao h1,
+h2 {
+  padding: 10px;
+}
+
+.padrao p {
+  font-size: 18px;
+}
+
+.conteudo {
+  width: 90%;
+  margin: 0% auto;
+}
+
+.intro img {
+  width: 500px;
+  height: 200;
+  border-radius: 5%;
+}
+.intro {
+  background-color: rgb(247, 246, 245);
+  padding: 4px;
+  border-radius: 3px;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.esquerda {
+  width: 40%;
+  height: 500pt;
+  background-image: url(img/família\ souza\ -\ foto.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.direita {
+  width: 60%;
+  text-align: justify;
+  padding: 20px;
+}
+
+/*QUEM SOMOS*/
+
+.fullpage {
+  height: 800px;
+  background-image: url(img/familia2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+.fullpage > .conteudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 3%;
+}
+
+.fullpage h1 {
+  background-color: rgb(181, 177, 172);
+  padding: 4px;
+  border-radius: 3px;
+}
+
+.meninas {
+  max-width: 800px;
+  background-image: linear-gradient(to top, transparent, #ffffffd3);
+  border-radius: 8px;
+  box-shadow: 0 2px rgba(0, 0, 0, 0.1);
+  padding: 50px 30px;
+}
+
+.meninas > img {
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+  border: 2px solid rgba(242, 204, 80, 0.711);
+  object-fit: cover;
+}
+
+.meninas h3 {
+  margin: 10px 0 5px;
+  color: orange;
+}
+
+.meninas p {
+  color: antiquewhite;
+  text-shadow: 1px 1px 2px rgb(246, 129, 12);
+}
+
+/*INDICAÇÕES DE LIVROS*/
+
+.indicacoes {
+  background-color: rgb(247, 246, 245);
+}
+
+.conteudo h2 {
+  background-color: rgb(181, 177, 172);
+  text-align: center;
+  margin: inherit;
+}
+
+.linha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  width: 25%;
+  padding: 20px;
+  border: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.item img {
+  width: 85%;
+  height: 220px;
+  transition: transform 0.5s;
+  border-radius: 7px;
+}
+
+.item img:hover {
+  transform: scale(1.1);
+}
+
+.item h2 {
+  font-size: 22px;
+  padding: 3% 0;
+}
+
+.item p {
+  font-size: 17px;
+  text-align: justify;
+}
+
+/*OFERTAS PARA SUA FAMÍLIA*/
+.ofertas h2 {
+  background-color: rgb(247, 246, 245);
+  padding: 10px;
+  border-radius: 5px;
+  width: 40%;
+  text-align: center;
+  margin: inherit;
+}
+
+/*ESCREVA-NOS*/
+
+.escreva-nos > .conteudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1100px;
+  background-color: rgba(255, 255, 255, 0.744);
+  border-radius: 8px;
+  box-shadow: 0 2px rgba(0, 0, 0, 0.1);
+  padding: 50px 30px;
+}
+
+.escreva-nos > h2 {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  width: 40%;
+  text-align: center;
+  margin: inherit;
+}
+
+.forma {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.forma form {
+  width: 100%;
+  font-weight: 900;
+  border-radius: 8px;
+  font-size: larger;
+  color: #000;
+}
+
+.forma-grupo {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.forma-grupo label {
+  text-align: center;
+}
+
+.forma-grupo input,
+textarea {
+  padding: 10px;
+  border: 1px solid orange;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  height: 30px;
+  cursor: pointer;
+  border: 100;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+  background-color: rgb(141, 139, 139);
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+.contatozap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.contatozap > img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border: 2px solid rgba(31, 243, 7, 0.916);
+  object-fit: cover;
+}
+
+/*CONTATO*/
+
+.contato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1100px;
+  background-color: rgba(140, 133, 133, 0.399);
+  border-radius: 8px;
+  box-shadow: 0 2px rgba(0, 0, 0, 0.1);
+  padding: 50px;
+}
+
+/*FOOTER*/
+
+footer {
+  height: 45vh;
+  background-color: #000000ad;
+  color: #fff;
+}
+
+footer > .conteudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer1 {
+  width: 33%;
+}
+
+.footer1 h3 {
+  padding: 20px 0;
+  width: 100%;
+}
+
+.footer1 img {
+  padding: 20px 5px;
+  width: 10%;
+}
+
+.footer1 span {
+  position: relative;
+  bottom: 32px;
+  padding-right: 20px;
+}
+
+.footer2 {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer2 p {
+  font-size: 16px;
+  position: relative;
+  top: 80px;
+}
+
+.footer3 {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*OFERTAS*/
